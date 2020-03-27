@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         sender.alpha = 0.5
         playSound(sound: sender.currentTitle!)
                     
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             sender.alpha = 1
         }
     }
